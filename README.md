@@ -3,7 +3,7 @@
 ## Learning Goals
 
 - Resolve merge conflicts.
-- Delete branches that we no longer need.
+- Delete branches using `git delete`.
 
 ## Introduction
 
