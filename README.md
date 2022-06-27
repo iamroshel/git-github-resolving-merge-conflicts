@@ -118,9 +118,9 @@ changes in the section immediately preceding that marker come from `add-videos`.
 The `=======` separates the two.
 
 The highlighting, which is created by VS Code, does the same thing, but makes it
-a little easier to see. The upper highlighted section (in green???) shows the
+a little easier to see. The upper highlighted section (in green) shows the
 "Current Change", i.e., the change from the branch we're currently on. The lower
-highlighted section (in blue???) shows the "Incoming Change", the change in the
+highlighted section (in blue) shows the "Incoming Change", the change in the
 branch we're trying to merge in.
 
 Resolving the conflicts is a simple matter of deciding which part or parts of
@@ -223,9 +223,9 @@ steps are:
 1. Create a new branch to add a new resource. This can be whatever you like, but
    one idea is practice coding sites (e.g.,
    [Codewars](https://www.codewars.com/)).
-2. Switch to the new branch and add the resource.
-3. Switch back to `main` and make some additional edits. Again, this can be
-   whatever you like.
+2. Switch to the new branch and add the resource at the end of the file.
+3. Switch back to `main` and add some **different** new content to the end of
+   the file. Again, this can be whatever you like.
 4. Run `git merge <new-branch>`. You should get a merge conflict error.
 5. Open the file in VS Code and resolve the conflicts.
 6. Add and commit the changes; this will be your merge commit.
