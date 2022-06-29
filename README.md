@@ -77,10 +77,11 @@ section:
   - The best reference book for Python
 ```
 
-Add and commit these changes as well. Next, we'll merge in the `add-videos`
-branch. Recall that we need to be on the branch that we are merging the changes
-into, in our case, `main`. Since we are already there, we're ready to run the
-command to merge in `add-videos`:
+Add and commit these changes as well. 
+
+Next, we'll merge in the `add-videos` branch. Recall that we need to be on the
+branch that we are merging the changes into, in our case, `main`. Since we are
+already there, we're ready to run the command to merge in `add-videos`:
 
 ```console
 $ git merge add-videos
