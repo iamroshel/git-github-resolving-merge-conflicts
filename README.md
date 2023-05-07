@@ -1,4 +1,4 @@
-# Resolving Merge Conflicts
+# Resolving Merge Conflicts c
 
 ## Learning Goals
 
